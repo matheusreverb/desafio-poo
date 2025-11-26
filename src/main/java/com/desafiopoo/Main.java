@@ -37,8 +37,11 @@ public class Main {
 
 
         Aluno aluno = new Aluno();
-        aluno.idade = 26;
-        aluno.nome = "Matheus Monteiro de Moura";
-        aluno.exibirInformacoes();
+        aluno.setNome("Iran Braga");
+        aluno.avaliarAluno(10);
+        aluno.avaliarAluno(8);
+        aluno.avaliarAluno(9);
+        System.out.println("A média do aluno é:" + aluno.calcularMedia()); 
+
     }
 }
